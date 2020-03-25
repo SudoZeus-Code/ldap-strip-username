@@ -1,4 +1,4 @@
-# the-sandbox
+# ldap enumeration user retrieval
 grab_user_sed.bash
 
 Strips usernames from enum4linux or an enumerated ldap enumdomuser output.
