@@ -3,9 +3,12 @@ grab_user_sed.bash
 
 Strips usernames from enum4linux or an enumerated ldap enumdomuser output.
 
-exapmle: 
+Usage:
+  bash grab_user_sed.bash
+  
+Exapmle: 
   user:[Administrator] rid:[0x1f4]
-returns:
+Returns:
   Administrator
 
 relace "user\:" with "rid\:" if you want the rid num instead
